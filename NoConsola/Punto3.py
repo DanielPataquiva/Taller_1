@@ -1,9 +1,12 @@
 import math
 
 # INGRESO DE COORDENADAS RECTANGULARES
-x = float(input("Ingrese la coordenada X: "))
-y = float(input("Ingrese la coordenada Y: "))
-z = float(input("Ingrese la coordenada Z: "))
+x = 2
+y = 3
+z = 5
+print("Coordenada X= ",x)
+print("Coordenada Y= ",y)
+print("Coordenada Z= ",z)
 
 # CONVERSION A COORDENADAS CILINDRICAS 
 rho = math.sqrt(x**2 + y**2)         # distancia radial

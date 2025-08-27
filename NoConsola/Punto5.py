@@ -29,7 +29,8 @@ def rotacion_z(angulo_grados):
 
 
 if __name__ == "__main__":
-    angulo = float(input("Ingrese el ángulo en grados: "))
+    angulo = 75
+    print("Angulo en grados: ", angulo)
 
     print("\nMatriz de rotación en X:")
     print(rotacion_x(angulo))

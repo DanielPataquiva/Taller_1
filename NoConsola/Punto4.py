@@ -14,6 +14,7 @@ def resistencia_pt100(T):
 
 if __name__ == "__main__":
 # Programa principal
-    temperatura = float(input("Ingrese la temperatura en °C: "))
+    temperatura = 110
+    print("Temperatura en °C: ", temperatura)
     resistencia = resistencia_pt100(temperatura)
     print(f"La resistencia de la PT100 a {temperatura} °C es: {resistencia:.2f} Ω")

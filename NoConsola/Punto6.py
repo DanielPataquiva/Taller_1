@@ -16,9 +16,12 @@ def calcular_fuerzas(presion, diametro_piston, diametro_vastago):
 if __name__ == "__main__":
 
     # Ingreso de datos
-    presion_bar = float(input("Ingrese la presion de trabajo [bar]: "))
-    diametro_piston_mm = float(input("Ingrese el diametro del piston [mm]: "))
-    diametro_vastago_mm = float(input("Ingrese el diametro del vástago [mm]: "))
+    presion_bar = 87
+    print("Presion de trabajo [bar]: ", presion_bar)
+    diametro_piston_mm = 22
+    print("Ingrese el diametro del piston [mm]: ", diametro_piston_mm)
+    diametro_vastago_mm = 36
+    print("Ingrese el diametro del vástago [mm]: ", diametro_vastago_mm)
 
     # Conversión de unidades
     presion_pa = presion_bar * 1e5  # 1 bar = 100000 Pa
