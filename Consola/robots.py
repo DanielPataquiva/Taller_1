@@ -1,6 +1,6 @@
 # Programa que describe tipos de robots y sus articulaciones
 
-print("\n--- Tipos de Robots ---")
+print("Tipos de Robots")
 print("1. Robot Cilíndrico")
 print("2. Robot Cartesiano")
 print("3. Robot Esférico")

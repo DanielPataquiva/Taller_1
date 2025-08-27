@@ -2,7 +2,7 @@
 
 import math
 
-print("\n--- Cálculo de Volúmenes ---")
+print("Cálculo de Volúmenes")
 print("1. Prisma rectangular")
 print("2. Pirámide")
 print("3. Cono truncado")
@@ -14,7 +14,7 @@ if opcion == 1:
     base = float(input("Ingrese el área de la base: "))
     altura = float(input("Ingrese la altura: "))
     volumen = base * altura
-    print(f"El volumen del prisma es: {volumen:.2f}")
+    print(f"El volumen del prisma es: {volumen:.3f}")
 
 elif opcion == 2:
     base = float(input("Ingrese el área de la base: "))

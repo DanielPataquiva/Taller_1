@@ -1,6 +1,6 @@
 # Programa que calcula la potencia consumida en un circuito
 
-print("\n--- Cálculo de Potencia ---")
+print("Cálculo de Potencia")
 corriente = float(input("Ingrese la corriente (A): "))
 voltaje = float(input("Ingrese el voltaje (V): "))
 potencia = corriente * voltaje
