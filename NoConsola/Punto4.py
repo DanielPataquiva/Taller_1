@@ -1,9 +1,6 @@
 
 def resistencia_pt100(T):
-    """
-    Calcula la resistencia de una RTD PT100 en función de la temperatura.
-    Formula de Callendar-Van Dusen.
-    """
+    
     R0 = 100  # ohmios a 0 °C
     A = 3.9083e-3
     B = -5.775e-7
