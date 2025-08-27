@@ -14,7 +14,7 @@ if opcion == 1:
     base = float(input("Ingrese el área de la base: "))
     altura = float(input("Ingrese la altura: "))
     volumen = base * altura
-    print(f"El volumen del prisma es: {volumen:.3f}")
+    print(f"El volumen del prisma es: {volumen:.2f}")
 
 elif opcion == 2:
     base = float(input("Ingrese el área de la base: "))
