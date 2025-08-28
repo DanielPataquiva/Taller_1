@@ -2,7 +2,7 @@
 
 import math
 
-print("\n--- Cálculo de Volúmenes ---")
+print("Cálculo de Volúmenes")
 print("1. Prisma rectangular")
 print("2. Pirámide")
 print("3. Cono truncado")
