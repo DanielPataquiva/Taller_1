@@ -3,7 +3,7 @@ from matplotlib.text import TextPath
 from matplotlib.patches import PathPatch
 from matplotlib.font_manager import FontProperties
 
-# --- Nombres originales ---
+
 nombres = ["ANDRES", "DANIEL", "DAVID", "SEBASTIAN"]
 
 
